@@ -1,20 +1,3 @@
-/*
-{
-  "acronyms":{
-  	"companies":{
-  		 "n":"name"
-  		,"sn":"short_name"
-  		,"sp":"stockPrice"
-  		,"bp":"bondPrice"
-  		,"c":"currency"
-  	},
-  	"stocks":{
-  		 "sn":"short_name"
-  		,"pb":"priceAtBuy"
-  	}
-
-},
-*/
 {
   "companies":{"CVX":{"id":"2","n":"Chevron","sn":"CVX","sp":200,"bp":300,"c":"USD"},"INTC":{"id":"4","n":"Intel","sn":"INTC","sp":500,"bp":700,"c":"USD"},"MSFT":{"id":"5","n":"Microsoft","sn":"MSFT","sp":1100,"bp":1300,"c":"USD"},"DIS":{"id":"6","n":"Walt Disney","sn":"DIS","sp":1700,"bp":1900,"c":"USD"},"GS":{"id":"9","n":"Goldman Sachs","sn":"GS","sp":2300,"bp":2900,"c":"USD"},"JPM":{"id":"10","n":"JPMorgan","sn":"JPM","sp":3100,"bp":3700,"c":"USD"},"MCD":{"id":"12","n":"McDonalds","sn":"MCD","sp":4100,"bp":4300,"c":"USD"},"AAPL":{"id":"15","n":"Apple","sn":"AAPL","sp":4700,"bp":5300,"c":"USD"},"XOM":{"id":"16","n":"Exxon Mobil","sn":"XOM","sp":5900,"bp":6100,"c":"USD"},"WMT":{"id":"18","n":"Walmart","sn":"WMT","sp":6700,"bp":7100,"c":"USD"},"HD":{"id":"19","n":"Home Depot","sn":"HD","sp":7300,"bp":7900,"c":"USD"},"IBM":{"id":"20","n":"IBM","sn":"IBM","sp":8300,"bp":8900,"c":"USD"},"VZ":{"id":"21","n":"Verizon","sn":"VZ","sp":9700,"bp":10100,"c":"USD"},"TRV":{"id":"22","n":"Travelers","sn":"TRV","sp":10300,"bp":10700,"c":"USD"},"AXP":{"id":"24","n":"American Express","sn":"AXP","sp":10900,"bp":11300,"c":"USD"},"V":{"id":"26","n":"Visa A","sn":"V","sp":12700,"bp":13100,"c":"USD"},"WBA":{"id":"27","n":"Walgreens Boots","sn":"WBA","sp":13700,"bp":13900,"c":"USD"},"UNH":{"id":"28","n":"UnitedHealth","sn":"UNH","sp":14900,"bp":15100,"c":"USD"}}
   ,"stocks":{
@@ -49,51 +32,6 @@
     ,"27":{"id":"27","sn":"TRV","pb":"114.71"}
     ,"28":{"id":"28","sn":"XOM","pb":"114.71"}
     ,"29":{"id":"29","sn":"MCD","pb":"114.71"}
-    
-    ,"30":{"id":"30","sn":"MCD","pb":"114.71"}
-    ,"31":{"id":"31","sn":"JPM","pb":"114.71"}
-    ,"32":{"id":"32","sn":"GS","pb":"114.71"}
-    ,"33":{"id":"33","sn":"DIS","pb":"114.71"}
-    ,"34":{"id":"34","sn":"DIS","pb":"114.71"}
-    ,"35":{"id":"35","sn":"MSFT","pb":"114.71"}
-    ,"36":{"id":"36","sn":"MSFT","pb":"114.71"}
-    ,"37":{"id":"37","sn":"MSFT","pb":"114.71"}
-    ,"38":{"id":"38","sn":"MSFT","pb":"114.71"}
-    ,"39":{"id":"39","sn":"INTC","pb":"114.71"}
-    
-    ,"40":{"id":"40","sn":"GS","pb":"114.71"}
-    ,"41":{"id":"41","sn":"JPM","pb":"114.71"}
-    ,"42":{"id":"42","sn":"MSFT","pb":"114.71"}
-    ,"43":{"id":"43","sn":"JPM","pb":"114.71"}
-    ,"44":{"id":"44","sn":"AAPL","pb":"114.71"}
-    ,"45":{"id":"45","sn":"MSFT","pb":"114.71"}
-    ,"46":{"id":"46","sn":"AAPL","pb":"114.71"}
-    ,"47":{"id":"47","sn":"JPM","pb":"114.71"}
-    ,"48":{"id":"48","sn":"AAPL","pb":"114.71"}
-    ,"49":{"id":"49","sn":"JPM","pb":"114.71"}
-
-    ,"50":{"id":"50","sn":"VZ","pb":"114.71"}
-    ,"51":{"id":"51","sn":"TRV","pb":"114.71"}
-    ,"52":{"id":"52","sn":"WMT","pb":"114.71"}
-    ,"53":{"id":"53","sn":"CVX","pb":"114.71"}
-    ,"54":{"id":"54","sn":"CVX","pb":"114.71"}
-    ,"55":{"id":"55","sn":"UNH","pb":"114.71"}
-    ,"56":{"id":"56","sn":"IBM","pb":"114.71"}
-    ,"57":{"id":"57","sn":"HD","pb":"114.71"}
-    ,"58":{"id":"58","sn":"IBM","pb":"114.71"}
-    ,"59":{"id":"59","sn":"HD","pb":"114.71"}
-
-    ,"60":{"id":"60","sn":"CVX","pb":"114.71"}
-    ,"61":{"id":"61","sn":"CVX","pb":"114.71"}
-    ,"62":{"id":"62","sn":"AAPL","pb":"114.71"}
-    ,"63":{"id":"63","sn":"AAPL","pb":"114.71"}
-    ,"64":{"id":"64","sn":"XOM","pb":"114.71"}
-    ,"65":{"id":"65","sn":"MCD","pb":"114.71"}
-    ,"66":{"id":"66","sn":"WMT","pb":"114.71"}
-    ,"67":{"id":"67","sn":"CVX","pb":"114.71"}
-    ,"68":{"id":"68","sn":"MCD","pb":"114.71"}
-    ,"69":{"id":"69","sn":"V","pb":"114.71"}
-
   } 
   ,"bonds": [
     { "id": 1, "body": "some comment", "postId": 1 },
@@ -104,7 +42,10 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "portfolios": [
-    { "id": 1, "transactions": [1,2,23,333], "date": 1 },
-    { "id": 2, "transactions": [1,2,23,333], "date": 1 }
+     { "id": 1, "transactions": [1,2,23,333], "date": 1 }
+    ,{ "id": 2, "transactions": [1,2,23,333], "date": 1 }
+    ,{ "id": 3, "transactions": [1,2,23,333], "date": 1 }
+    ,{ "id": 4, "transactions": [1,2,23,333], "date": 1 }
+    ,{ "id": 5, "transactions": [1,2,23,333], "date": 1 }
   ]
 }
