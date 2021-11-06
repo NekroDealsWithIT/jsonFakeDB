@@ -1,8 +1,204 @@
 {
-  "companies": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" }
-  ],
+  "companies": {
+    "CVX": {
+      "id": "2",
+      "name": "Chevron",
+      "short_name": "CVX",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Energy",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "INTC": {
+      "id": "4",
+      "name": "Intel",
+      "short_name": "INTC",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Technology",
+      "exch": "NASDAQ",
+      "ccy": "USD"
+    },
+    "MSFT": {
+      "id": "5",
+      "name": "Microsoft",
+      "short_name": "MSFT",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Technology",
+      "exch": "NASDAQ",
+      "ccy": "USD"
+    },
+    "DIS": {
+      "id": "6",
+      "name": "Walt Disney",
+      "short_name": "DIS",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Services",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "GS": {
+      "id": "9",
+      "name": "Goldman Sachs",
+      "short_name": "GS",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Financial",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "JPM": {
+      "id": "10",
+      "name": "JPMorgan",
+      "short_name": "JPM",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Financial",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "MCD": {
+      "id": "12",
+      "name": "McDonalds",
+      "short_name": "MCD",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Services",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "AAPL": {
+      "id": "15",
+      "name": "Apple",
+      "short_name": "AAPL",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Technology",
+      "exch": "NASDAQ",
+      "ccy": "USD"
+    },
+    "XOM": {
+      "id": "16",
+      "name": "Exxon Mobil",
+      "short_name": "XOM",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Energy",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "WMT": {
+      "id": "18",
+      "name": "Walmart",
+      "short_name": "WMT",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Services",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "HD": {
+      "id": "19",
+      "name": "Home Depot",
+      "short_name": "HD",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Services",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "IBM": {
+      "id": "20",
+      "name": "IBM",
+      "short_name": "IBM",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Technology",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "VZ": {
+      "id": "21",
+      "name": "Verizon",
+      "short_name": "VZ",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Services",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "TRV": {
+      "id": "22",
+      "name": "Travelers",
+      "short_name": "TRV",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Financial",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "AXP": {
+      "id": "24",
+      "name": "American Express",
+      "short_name": "AXP",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Financial",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "V": {
+      "id": "26",
+      "name": "Visa A",
+      "short_name": "V",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Services",
+      "exch": "NYSE",
+      "ccy": "USD"
+    },
+    "WBA": {
+      "id": "27",
+      "name": "Walgreens Boots",
+      "short_name": "WBA",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Services",
+      "exch": "NASDAQ",
+      "ccy": "USD"
+    },
+    "UNH": {
+      "id": "28",
+      "name": "UnitedHealth",
+      "short_name": "UNH",
+      "stockPrice":150,
+      "bondPrice":190,
+      "country": "united-states",
+      "sector": "Financial",
+      "exch": "NYSE",
+      "ccy": "USD"
+    }
+ },
   "stocks": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
@@ -16,7 +212,7 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "portfolios": [
-    { "id": 1, "transactions": [1,2,23,333], "postId": 1 },
-    { "id": 2, "transactions": [1,2,23,333], "postId": 1 }
+    { "id": 1, "transactions": [1,2,23,333], "date": 1 },
+    { "id": 2, "transactions": [1,2,23,333], "date": 1 }
   ]
 }
