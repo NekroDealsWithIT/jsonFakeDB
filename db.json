@@ -1,18 +1,4 @@
 {
-  "acronyms":{
-  	"companies":{
-  		 "n":"name"
-  		,"sn":"short_name"
-  		,"sp":"stockPrice"
-  		,"bp":"bondPrice"
-  		,"c":"currency"
-  	},
-  	"stocks":{
-  		 "sn":"short_name"
-  		,"pb":"priceAtBuy"
-  	}
-
-},
   "companies":{"CVX":{"id":"2","n":"Chevron","sn":"CVX","sp":200,"bp":300,"c":"USD"},"INTC":{"id":"4","n":"Intel","sn":"INTC","sp":500,"bp":700,"c":"USD"},"MSFT":{"id":"5","n":"Microsoft","sn":"MSFT","sp":1100,"bp":1300,"c":"USD"},"DIS":{"id":"6","n":"Walt Disney","sn":"DIS","sp":1700,"bp":1900,"c":"USD"},"GS":{"id":"9","n":"Goldman Sachs","sn":"GS","sp":2300,"bp":2900,"c":"USD"},"JPM":{"id":"10","n":"JPMorgan","sn":"JPM","sp":3100,"bp":3700,"c":"USD"},"MCD":{"id":"12","n":"McDonalds","sn":"MCD","sp":4100,"bp":4300,"c":"USD"},"AAPL":{"id":"15","n":"Apple","sn":"AAPL","sp":4700,"bp":5300,"c":"USD"},"XOM":{"id":"16","n":"Exxon Mobil","sn":"XOM","sp":5900,"bp":6100,"c":"USD"},"WMT":{"id":"18","n":"Walmart","sn":"WMT","sp":6700,"bp":7100,"c":"USD"},"HD":{"id":"19","n":"Home Depot","sn":"HD","sp":7300,"bp":7900,"c":"USD"},"IBM":{"id":"20","n":"IBM","sn":"IBM","sp":8300,"bp":8900,"c":"USD"},"VZ":{"id":"21","n":"Verizon","sn":"VZ","sp":9700,"bp":10100,"c":"USD"},"TRV":{"id":"22","n":"Travelers","sn":"TRV","sp":10300,"bp":10700,"c":"USD"},"AXP":{"id":"24","n":"American Express","sn":"AXP","sp":10900,"bp":11300,"c":"USD"},"V":{"id":"26","n":"Visa A","sn":"V","sp":12700,"bp":13100,"c":"USD"},"WBA":{"id":"27","n":"Walgreens Boots","sn":"WBA","sp":13700,"bp":13900,"c":"USD"},"UNH":{"id":"28","n":"UnitedHealth","sn":"UNH","sp":14900,"bp":15100,"c":"USD"}}
   ,"stocks":{
      "1":{"id":"1","sn":"CVX","pb":"114.71"}
