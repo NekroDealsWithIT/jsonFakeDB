@@ -11,8 +11,12 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "portfolios": [
+  "transactions": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "portfolios": [
+    { "id": 1, "transactions": [1,2,23,333], "postId": 1 },
+    { "id": 2, "transactions": [1,2,23,333], "postId": 1 }
   ]
 }
